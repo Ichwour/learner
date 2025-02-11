@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Gran Feudo Moscatel 2021",
+                "probability": 0.004058086195264853
+            },
+            {
+                "class": "Macallan 12 YO Fine Oak 5cl",
+                "probability": 0.004058086195264853
+            },
+            {
+                "class": "Kilchoman Machir Bay Gift Pack 70cl",
+                "probability": 0.004058086195264853
+            },
+            {
+                "class": "Kracher No.4. Rosenmuskateller 2018",
+                "probability": 0.004058086195264853
+            },
+            {
+                "class": "Kracher Noble Reserve Trockenbeerenauslese N.V. 37.5cl",
+                "probability": 0.004058086195264853
+            }
+        ]
+    }
+]
