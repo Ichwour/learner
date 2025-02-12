@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "J. Lassalle Preference Brut Champagne",
+                "probability": 0.0055414929999803575
+            },
+            {
+                "class": "Billecart-Salmon Cuvee Louis Brut Blanc de Blanc Grand Cru 2009",
+                "probability": 0.004840171686866559
+            },
+            {
+                "class": "Moet   Chandon Rose Love Metal box",
+                "probability": 0.0046491984512697735
+            },
+            {
+                "class": "Ruinart Brut",
+                "probability": 0.004648281272441235
+            },
+            {
+                "class": "Louis Roederer Magnum Cristal Brut Rose 2012",
+                "probability": 0.004618301042817728
+            }
+        ]
+    }
+]

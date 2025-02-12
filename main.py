@@ -97,6 +97,7 @@ def train(df):
         print("Порядок признаков в модели:", feature_order)
         test_pool = Pool(data=x_test, label=y_test, cat_features=cat_features)
         logging.info("Данные успешно разделены на обучающие и тестовые")
+        # sample_weight = calculate_weights(user_prefs, X_train)
         return train_pool, test_pool
     except Exception as e:
         e_train(e)
@@ -106,8 +107,7 @@ def learn():
         logging.info("Программа запущена")
         train_pool, test_pool = train(preprocess(read_file(2), 2))
         logging.info("Функция learn начата")
-        # sample_weight = calculate_weights(user_prefs, X_train)
-        model = CatBoostClassifier(iterations=1, learning_rate=0.03, depth=7, l2_leaf_reg=10, border_count=32)
+        model = CatBoostClassifier(iterations=100, learning_rate=0.03, depth=6, l2_leaf_reg=14, border_count=32)
         # model = model.fit(train_pool, sample_weight=sample_weight)
         model = model.fit(train_pool)
         print("Vesa: ", model.feature_importances_)

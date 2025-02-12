@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Delirium Nocturnum",
+                "probability": 0.005955674812404432
+            },
+            {
+                "class": "Glenmorangie Cadboll 100cl",
+                "probability": 0.005070387551364336
+            },
+            {
+                "class": "Italesse Masterclass 70 Set of 6",
+                "probability": 0.004578532994076549
+            },
+            {
+                "class": "Billecart-Salmon Cuvee Louis Brut Blanc de Blanc Grand Cru 2009",
+                "probability": 0.004545472692276615
+            },
+            {
+                "class": "Ca Vittoria Spumante Rose Brut",
+                "probability": 0.004516267212425632
+            }
+        ]
+    }
+]
