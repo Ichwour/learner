@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Hennessy VSOP NBA 2022 Release 70cl",
+                "probability": 0.019635212455209893
+            },
+            {
+                "class": "Kilchoman Machir Bay Gift Pack 70cl",
+                "probability": 0.019635212455209893
+            },
+            {
+                "class": "Deveron 12 Y.O. 70cl",
+                "probability": 0.019635212455209893
+            },
+            {
+                "class": "Nikka Coffey Grain 70cl",
+                "probability": 0.019635212455209893
+            },
+            {
+                "class": "Macallan 12 YO Fine Oak 5cl",
+                "probability": 0.019635212455209893
+            }
+        ]
+    }
+]

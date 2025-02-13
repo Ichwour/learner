@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Berlucchi Franciacorta '61 Extra Brut",
+                "probability": 0.004057117008815919
+            },
+            {
+                "class": "Dopff Riesling Vendanges Tardives 2015",
+                "probability": 0.004057117008815919
+            },
+            {
+                "class": "Juve   Camps Essential Purpura Brut",
+                "probability": 0.004057117008815919
+            },
+            {
+                "class": "Lis Neris Sauvignon Blanc DOC 2021",
+                "probability": 0.004057117008815919
+            },
+            {
+                "class": "Dopff Pinot Gris Coeur de Barrique 2020",
+                "probability": 0.004048442518373388
+            }
+        ]
+    }
+]

@@ -1,32 +1,56 @@
-2025-02-12 13:30:14,771 - INFO - Программа запущена
-2025-02-12 13:30:14,771 - INFO - Функция read_file вызвана с аргументом: 2
-2025-02-12 13:30:14,771 - INFO - e_path выполнено
-2025-02-12 13:30:14,771 - INFO - e_read выполнено
-2025-02-12 13:30:14,774 - INFO - e_write выполнено
-2025-02-12 13:30:14,775 - INFO - e_read выполнено
-2025-02-12 13:30:14,776 - INFO - e_convert выполнено
-2025-02-12 13:30:14,776 - INFO - Функция preprocess начата
-2025-02-12 13:30:14,776 - INFO - Функция fill начата
-2025-02-12 13:30:14,778 - INFO - e_fill_values выполнено
-2025-02-12 13:30:14,778 - INFO - Функция scale начата
-2025-02-12 13:30:14,778 - INFO - e_scale_price выполнено
-2025-02-12 13:30:14,778 - INFO - e_scale_format выполнено
-2025-02-12 13:30:14,781 - INFO - Функция train начата
-2025-02-12 13:30:14,785 - INFO - Данные успешно разделены на обучающие и тестовые
-2025-02-12 13:30:14,785 - INFO - Функция learn начата
-2025-02-12 13:36:19,461 - INFO - Обучение завершено с точностью: 0.00
-2025-02-12 13:36:19,484 - INFO - Модель успешно сохранена
-2025-02-12 13:36:19,489 - INFO - Сохранение данных завершено
-2025-02-12 13:36:19,495 - INFO - Загрузка модели начата
-2025-02-12 13:36:19,500 - INFO - Функция read_file вызвана с аргументом: 1
-2025-02-12 13:36:19,500 - INFO - e_path выполнено
-2025-02-12 13:36:19,500 - INFO - e_read выполнено
-2025-02-12 13:36:19,500 - INFO - e_convert выполнено
-2025-02-12 13:36:19,501 - INFO - Функция preprocess начата
-2025-02-12 13:36:19,501 - INFO - Функция fill начата
-2025-02-12 13:36:19,502 - INFO - e_fill_values выполнено
-2025-02-12 13:36:19,502 - INFO - Функция scale начата
-2025-02-12 13:36:19,502 - INFO - e_scale_price выполнено
-2025-02-12 13:36:19,502 - INFO - e_scale_format выполнено
-2025-02-12 13:36:19,505 - INFO - Прогноз для объекта 1: [("Ruggeri Giall'Oro Valdobbiadene Prosecco Superiore DOCG Extra Dry 37,5cl", 0.004249437905998622), ('Macallan 12 YO Sherry Oak 70cl', 0.004218334284115411), ('Louis Roederer Cristal Brut 2012', 0.004212463571841218), ('J. Lassalle Preference Brut Champagne', 0.004188747356907823), ('Igino Accordini Amarone Riserva Gino Cordin 2012 Magnum', 0.004176907703575259)]
-2025-02-12 13:36:19,507 - INFO - Сохранение данных завершено
+2025-02-13 11:03:37,642 - INFO - Программа запущена
+2025-02-13 11:03:37,642 - INFO - Функция read_file вызвана с аргументом: 2
+2025-02-13 11:03:37,642 - INFO - e_path выполнено
+2025-02-13 11:03:37,642 - INFO - e_read выполнено
+2025-02-13 11:03:37,648 - INFO - e_write выполнено
+2025-02-13 11:03:37,649 - INFO - e_read выполнено
+2025-02-13 11:03:37,651 - INFO - e_convert выполнено
+2025-02-13 11:03:37,652 - INFO - Функция read_file вызвана с аргументом: 1
+2025-02-13 11:03:37,652 - INFO - e_path выполнено
+2025-02-13 11:03:37,652 - INFO - e_read выполнено
+2025-02-13 11:03:37,652 - INFO - e_convert выполнено
+2025-02-13 11:03:37,654 - INFO - Отфильтрованные данные:                                                 name          producer  price  \
+1                         Billecart-Salmon Brut Rose  Billecart Salmon   85.0   
+2              J. Lassalle Preference Brut Champagne        J.Lassalle   65.0   
+3                   Louis Roederer Cristal Brut 2012    Louis Roederer  390.0   
+6  Billecart-Salmon Cuvee Louis Brut Blanc de Bla...  Billecart Salmon  180.0   
+9  Duval Leroy Champagne Brut Rose Prestige Premi...       Duval-Leroy  170.0   
+
+  country                            varietals     region color  format sugar  \
+1      FR  Chardonnay,Pinot Noir,Pinot Meunier  Champagne  None    0.75  Brut   
+2      FR  Chardonnay,Pinot Noir,Pinot Meunier  Champagne  None    0.75  Brut   
+3      FR                Chardonnay,Pinot Noir  Champagne  None    0.75  Brut   
+6      FR                           Chardonnay  Champagne  None    0.75  Brut   
+9      FR                Chardonnay,Pinot Noir  Champagne  None    1.50  Brut   
+
+   type  
+1     1  
+2     1  
+3     1  
+6     1  
+9     1  
+2025-02-13 11:03:37,659 - INFO - Функция preprocess начата
+2025-02-13 11:03:37,659 - INFO - Функция fill начата
+2025-02-13 11:03:37,661 - INFO - e_fill_values выполнено
+2025-02-13 11:03:37,662 - INFO - Функция scale начата
+2025-02-13 11:03:37,662 - INFO - e_scale_price выполнено
+2025-02-13 11:03:37,663 - INFO - e_scale_format выполнено
+2025-02-13 11:03:37,665 - INFO - Функция train начата
+2025-02-13 11:03:37,670 - INFO - Данные успешно разделены на обучающие и тестовые
+2025-02-13 11:03:37,670 - INFO - Функция learn начата
+2025-02-13 11:03:42,573 - INFO - Обучение завершено с точностью: 0.00
+2025-02-13 11:03:42,574 - INFO - Модель успешно сохранена
+2025-02-13 11:03:42,581 - INFO - Сохранение данных завершено
+2025-02-13 11:03:42,583 - INFO - Загрузка модели начата
+2025-02-13 11:03:42,584 - INFO - Функция read_file вызвана с аргументом: 1
+2025-02-13 11:03:42,584 - INFO - e_path выполнено
+2025-02-13 11:03:42,584 - INFO - e_read выполнено
+2025-02-13 11:03:42,584 - INFO - e_convert выполнено
+2025-02-13 11:03:42,585 - INFO - Функция preprocess начата
+2025-02-13 11:03:42,585 - INFO - Функция fill начата
+2025-02-13 11:03:42,586 - INFO - e_fill_values выполнено
+2025-02-13 11:03:42,586 - INFO - Функция scale начата
+2025-02-13 11:03:42,587 - INFO - e_scale_price выполнено
+2025-02-13 11:03:42,587 - INFO - e_scale_format выполнено
+2025-02-13 11:03:42,591 - INFO - Прогноз для объекта 1: [('Lis Neris Sauvignon Blanc DOC 2021', 0.00519221499384021), ("Ruggeri Giall'Oro Valdobbiadene Prosecco Superiore DOCG Extra Dry 37,5cl", 0.00519221499384021), ('Juve   Camps Chardonnay Gran Reserve Brut 2018', 0.00519221499384021), ('H H 10 Years Old Madeira Verdelho Dry 50cl', 0.00519221499384021), ('Derey Freres Marsannay Les Vignes Marie 2020', 0.005181117142987493)]
+2025-02-13 11:03:42,594 - INFO - Сохранение данных завершено

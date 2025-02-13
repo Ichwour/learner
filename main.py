@@ -9,6 +9,7 @@ import sys
 import json
 import io
 import logging
+import shutil
 from validators import e_path, e_read, e_write, e_convert, e_file, e_fill_values, e_fill, e_scale_price, \
     e_scale_format, e_scale, e_preprocess, e_train, e_learn, e_save, e_load
 
@@ -31,6 +32,7 @@ def log():
 def read_file(num):
     try:
         logging.info("Функция read_file вызвана с аргументом: %s", num)
+
         if num == 1:
             conditions_path = e_path(1)
             conditions = e_read(conditions_path)
@@ -44,8 +46,20 @@ def read_file(num):
             e_write("data/used_data.json", data)
             used_data = e_read("data/used_data.json")
             df = e_convert(used_data)
-            logging.debug("Данные из data загружены: %s", df.head())
-            return df
+            conditions = read_file(1)
+            type_to_keep = conditions["type"]
+
+            if isinstance(type_to_keep, list):
+                type_to_keep = type_to_keep[0]
+            elif isinstance(type_to_keep, pd.Series):
+                type_to_keep = type_to_keep.iloc[0]
+
+            type_to_keep = int(type_to_keep)
+            df = df[df["type"] == type_to_keep]
+
+        logging.info("Отфильтрованные данные: %s", df.head())
+        return df
+
     except Exception as e:
         e_file(e)
 
@@ -107,7 +121,7 @@ def learn():
         logging.info("Программа запущена")
         train_pool, test_pool = train(preprocess(read_file(2), 2))
         logging.info("Функция learn начата")
-        model = CatBoostClassifier(iterations=100, learning_rate=0.03, depth=6, l2_leaf_reg=14, border_count=32)
+        model = CatBoostClassifier(iterations=1, learning_rate=0.03, depth=6, l2_leaf_reg=14, border_count=32)
         # model = model.fit(train_pool, sample_weight=sample_weight)
         model = model.fit(train_pool)
         print("Vesa: ", model.feature_importances_)
