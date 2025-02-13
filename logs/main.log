@@ -1,56 +1,104 @@
-2025-02-13 11:03:37,642 - INFO - Программа запущена
-2025-02-13 11:03:37,642 - INFO - Функция read_file вызвана с аргументом: 2
-2025-02-13 11:03:37,642 - INFO - e_path выполнено
-2025-02-13 11:03:37,642 - INFO - e_read выполнено
-2025-02-13 11:03:37,648 - INFO - e_write выполнено
-2025-02-13 11:03:37,649 - INFO - e_read выполнено
-2025-02-13 11:03:37,651 - INFO - e_convert выполнено
-2025-02-13 11:03:37,652 - INFO - Функция read_file вызвана с аргументом: 1
-2025-02-13 11:03:37,652 - INFO - e_path выполнено
-2025-02-13 11:03:37,652 - INFO - e_read выполнено
-2025-02-13 11:03:37,652 - INFO - e_convert выполнено
-2025-02-13 11:03:37,654 - INFO - Отфильтрованные данные:                                                 name          producer  price  \
-1                         Billecart-Salmon Brut Rose  Billecart Salmon   85.0   
-2              J. Lassalle Preference Brut Champagne        J.Lassalle   65.0   
-3                   Louis Roederer Cristal Brut 2012    Louis Roederer  390.0   
-6  Billecart-Salmon Cuvee Louis Brut Blanc de Bla...  Billecart Salmon  180.0   
-9  Duval Leroy Champagne Brut Rose Prestige Premi...       Duval-Leroy  170.0   
+2025-02-13 14:17:42,693 - INFO - Программа запущена
+2025-02-13 14:17:42,693 - INFO - Функция read_file вызвана с аргументом: 2
+2025-02-13 14:17:42,702 - INFO - Функция read_file вызвана с аргументом: 1
+2025-02-13 14:17:42,703 - INFO - После фильтрации осталось 247 объектов.
+2025-02-13 14:17:42,704 - INFO - Функция preprocess начата
+2025-02-13 14:17:42,704 - INFO - Функция fill начата
+2025-02-13 14:17:42,707 - INFO - Функция scale начата
+2025-02-13 14:17:42,707 - INFO - Функция cluster_varietals начата
+2025-02-13 14:17:42,718 - INFO - Кластеризация сортов завершена. Найдено 20 кластеров
+2025-02-13 14:17:42,722 - INFO - Функция train начата
+2025-02-13 14:17:42,969 - INFO - Данные успешно разделены на обучающие и тестовые
+2025-02-13 14:17:42,969 - INFO - Функция learn начата
+2025-02-13 14:22:49,353 - INFO - Test accuracy: 0.0000
+2025-02-13 14:22:49,354 - INFO - Classification report:
+                                                                                    precision    recall  f1-score   support
 
-  country                            varietals     region color  format sugar  \
-1      FR  Chardonnay,Pinot Noir,Pinot Meunier  Champagne  None    0.75  Brut   
-2      FR  Chardonnay,Pinot Noir,Pinot Meunier  Champagne  None    0.75  Brut   
-3      FR                Chardonnay,Pinot Noir  Champagne  None    0.75  Brut   
-6      FR                           Chardonnay  Champagne  None    0.75  Brut   
-9      FR                Chardonnay,Pinot Noir  Champagne  None    1.50  Brut   
+                                                           Alpha Estate Omega 2017       0.00      0.00      0.00       1.0
+                                       Badagoni Mukuzani Kakheti Georgian Republic       0.00      0.00      0.00       1.0
+                                                    Badagoni Saperavi Dry Red 2021       0.00      0.00      0.00       0.0
+                              Badagoni Saperavi Rose Dry Kakheti Georgian Republic       0.00      0.00      0.00       0.0
+                                                   Badagoni Tvishi Semi-Sweet 2021       0.00      0.00      0.00       1.0
+                                             Berlucchi Franciacorta '61 Extra Brut       0.00      0.00      0.00       1.0
+                                             Berlucchi Franciacorta '61 Saten Brut       0.00      0.00      0.00       1.0
+                                    Berlucchi Franciacorta Imperial Cuvee Demi Sec       0.00      0.00      0.00       1.0
+                                                        Billecart-Salmon Brut Rose       0.00      0.00      0.00       0.0
+                                                    Ca Vittoria Spumante Rose Brut       0.00      0.00      0.00       1.0
+                                                    Cantina Tramin Selida DOC 2022       0.00      0.00      0.00       0.0
+                                       Chateau Angelus 1er Grand Cru Classe A 2018       0.00      0.00      0.00       1.0
+                              Chateau Cheval Blanc 1er Grand Cru Classe ""A"" 2005       0.00      0.00      0.00       1.0
+                              Chateau Cheval Blanc 1er Grand Cru Classe ""A"" 2012       0.00      0.00      0.00       1.0
+                                                Chateau Cos D'Estournel Blanc 2021       0.00      0.00      0.00       1.0
+                                               Chateau Duhart-Milon Grand Cru 2018       0.00      0.00      0.00       1.0
+                                Chateau Haut Brion 1er Grand Cru Classe Rouge 2016       0.00      0.00      0.00       0.0
+                                         Chateau Latour 1-er Grand Cru Classe 2005       0.00      0.00      0.00       1.0
+                                         Chateau Latour 1-er Grand Cru Classe 2014       0.00      0.00      0.00       1.0
+                                                    Chateau Mouton Rothschild 2019       0.00      0.00      0.00       1.0
+                                                   Chateau Pape Clement Blanc 2018       0.00      0.00      0.00       1.0
+                                                             Chateau Potensac 2020       0.00      0.00      0.00       1.0
+                                  Chateau de Tracy Pouilly-Fume Les 101 Rangs 2019       0.00      0.00      0.00       1.0
+                                                 Chivite Coleccion 125 Rosado 2021       0.00      0.00      0.00       1.0
+                                                    Chivite Las Fincas Blanco 2021       0.00      0.00      0.00       1.0
+              Col d'Orcia Poggio al Vento Brunello di Montalcino DOCG Riserva 2015       0.00      0.00      0.00       1.0
+                                                               Daou Bodyguard 2018       0.00      0.00      0.00       0.0
+                                                              Daou Chardonnay 2021       0.00      0.00      0.00       1.0
+                                                    Daou Vineyards Pinot Noir 2019       0.00      0.00      0.00       1.0
+        Domaine Mongeard-Mugneret Nuits-St-Georges 1er Cru Les Boudots 1991 37.5cl       0.00      0.00      0.00       1.0
+                                         Domaine de Chevalier Blanc Grand Cru 2017       0.00      0.00      0.00       1.0
+                                                                 Dopff Muscat 2020       0.00      0.00      0.00       1.0
+                                             E. Guigal Cote Rotie La Landonne 2018       0.00      0.00      0.00       1.0
+                                                              Ezousa Viognier 2022       0.00      0.00      0.00       1.0
+                                                             Ezousa Xinisteri 2023       0.00      0.00      0.00       0.0
+                                                    Giorgio Primo IGT Toscana 2018       0.00      0.00      0.00       1.0
+                                                             Gran Feudo Roble 2020       0.00      0.00      0.00       1.0
+                       Guerrieri Gonzaga Tenuta San Leonardo Villa Gresti IGT 2015       0.00      0.00      0.00       1.0
+                                             J. Lassalle Preference Brut Champagne       0.00      0.00      0.00       0.0
+                                               Juve   Camps Essential Purpura Brut       0.00      0.00      0.00       1.0
+                                              Juve   Camps Millesime Rose 2012 Box       0.00      0.00      0.00       1.0
+                                            Klein Constantia Vin de Constance 2014       0.00      0.00      0.00       1.0
+                                               Kracher Beerenauslese Zweigelt 2020       0.00      0.00      0.00       1.0
+                                               Kracher No.4. Rosenmuskateller 2018       0.00      0.00      0.00       1.0
+                                                Kracher Trockenbeeren Auslese 2018       0.00      0.00      0.00       0.0
+                                                            Lis Neris Confini 2018       0.00      0.00      0.00       0.0
+                                                Lis Neris Sauvignon Blanc DOC 2021       0.00      0.00      0.00       0.0
+                                        Louis Roederer Collection 245 Brut 37.5 cl       0.00      0.00      0.00       1.0
+                                                  Louis Roederer Cristal Brut 2012       0.00      0.00      0.00       1.0
+                                  Lustau Brandy Solera Gran Reserva Family Reserve       0.00      0.00      0.00       1.0
+                                                          Lustau Cream VORS Sherry       0.00      0.00      0.00       1.0
+                                                     Lustau Fino del Puerto Sherry       0.00      0.00      0.00       1.0
+                                                       Lustau PX San Emilio Sherry       0.00      0.00      0.00       0.0
+                                              Lustau Palo Cortado Peninsula Sherry       0.00      0.00      0.00       0.0
+                                                                Lustau Vermut Rose       0.00      0.00      0.00       1.0
+                                     Marchesi Antinori Tignanello Toscana IGT 2019       0.00      0.00      0.00       1.0
+Marisco Diamond Heart Waihopai CuvÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©e 2017       0.00      0.00      0.00       1.0
+                                         Ornellaia Bolgheri Superiore Tuscany 2017       0.00      0.00      0.00       1.0
+                                         Ornellaia Bolgheri Superiore Tuscany 2019       0.00      0.00      0.00       1.0
+                                        Privat Chardonnay Reserva Brut Nature 2019       0.00      0.00      0.00       0.0
+                                                   Reichsrat von Buhl Reserve Brut       0.00      0.00      0.00       1.0
+                                         Reichsrat von Buhl Suez Vintage Brut 2015       0.00      0.00      0.00       0.0
+                                         Reichsrat von Buhl Zero Secco Non Alcohol       0.00      0.00      0.00       0.0
+                                              Ruggeri Prosecco Argeo Brut DOC 20cl       0.00      0.00      0.00       1.0
+                                                      Ruinart Blanc de Blancs Brut       0.00      0.00      0.00       1.0
+                                                    Zuccardi Fosil Chardonnay 2020       0.00      0.00      0.00       0.0
+          Zuccardi Serie A TorrontÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©s 2021       0.00      0.00      0.00       1.0
 
-   type  
-1     1  
-2     1  
-3     1  
-6     1  
-9     1  
-2025-02-13 11:03:37,659 - INFO - Функция preprocess начата
-2025-02-13 11:03:37,659 - INFO - Функция fill начата
-2025-02-13 11:03:37,661 - INFO - e_fill_values выполнено
-2025-02-13 11:03:37,662 - INFO - Функция scale начата
-2025-02-13 11:03:37,662 - INFO - e_scale_price выполнено
-2025-02-13 11:03:37,663 - INFO - e_scale_format выполнено
-2025-02-13 11:03:37,665 - INFO - Функция train начата
-2025-02-13 11:03:37,670 - INFO - Данные успешно разделены на обучающие и тестовые
-2025-02-13 11:03:37,670 - INFO - Функция learn начата
-2025-02-13 11:03:42,573 - INFO - Обучение завершено с точностью: 0.00
-2025-02-13 11:03:42,574 - INFO - Модель успешно сохранена
-2025-02-13 11:03:42,581 - INFO - Сохранение данных завершено
-2025-02-13 11:03:42,583 - INFO - Загрузка модели начата
-2025-02-13 11:03:42,584 - INFO - Функция read_file вызвана с аргументом: 1
-2025-02-13 11:03:42,584 - INFO - e_path выполнено
-2025-02-13 11:03:42,584 - INFO - e_read выполнено
-2025-02-13 11:03:42,584 - INFO - e_convert выполнено
-2025-02-13 11:03:42,585 - INFO - Функция preprocess начата
-2025-02-13 11:03:42,585 - INFO - Функция fill начата
-2025-02-13 11:03:42,586 - INFO - e_fill_values выполнено
-2025-02-13 11:03:42,586 - INFO - Функция scale начата
-2025-02-13 11:03:42,587 - INFO - e_scale_price выполнено
-2025-02-13 11:03:42,587 - INFO - e_scale_format выполнено
-2025-02-13 11:03:42,591 - INFO - Прогноз для объекта 1: [('Lis Neris Sauvignon Blanc DOC 2021', 0.00519221499384021), ("Ruggeri Giall'Oro Valdobbiadene Prosecco Superiore DOCG Extra Dry 37,5cl", 0.00519221499384021), ('Juve   Camps Chardonnay Gran Reserve Brut 2018', 0.00519221499384021), ('H H 10 Years Old Madeira Verdelho Dry 50cl', 0.00519221499384021), ('Derey Freres Marsannay Les Vignes Marie 2020', 0.005181117142987493)]
-2025-02-13 11:03:42,594 - INFO - Сохранение данных завершено
+                                                                          accuracy                           0.00      50.0
+                                                                         macro avg       0.00      0.00      0.00      50.0
+                                                                      weighted avg       0.00      0.00      0.00      50.0
+
+2025-02-13 14:22:49,366 - INFO - Train accuracy: 0.1218
+2025-02-13 14:22:49,367 - INFO - Test accuracy: 0.0000
+2025-02-13 14:22:49,367 - INFO - Разница между Train и Test: 0.1218
+2025-02-13 14:22:49,367 - WARNING - Возможно, модель переобучается (разница > 0.1).
+2025-02-13 14:22:49,369 - INFO - Random baseline accuracy: 0.0200
+2025-02-13 14:22:49,382 - INFO - Модель успешно сохранена
+2025-02-13 14:22:49,395 - INFO - Сохранение данных завершено
+2025-02-13 14:22:49,400 - INFO - Загрузка модели начата
+2025-02-13 14:22:49,404 - INFO - Функция read_file вызвана с аргументом: 1
+2025-02-13 14:22:49,405 - INFO - Функция preprocess начата
+2025-02-13 14:22:49,405 - INFO - Функция fill начата
+2025-02-13 14:22:49,407 - INFO - Функция scale начата
+2025-02-13 14:22:49,407 - INFO - Функция cluster_varietals начата
+2025-02-13 14:22:49,410 - INFO - Кластеризация сортов завершена. Найдено 0 кластеров
+2025-02-13 14:22:49,414 - INFO - Прогноз для объекта 1: [('Chateau Haut Brion 1er Grand Cru Classe Rouge 2016', 0.0055676020293470695), ('Dopff Pinot Noir Rouge des 2 Cerfs 2021', 0.005532121215210508), ('Chateau Angelus Le Carillon de lAngelus Saint-Emilion Grand Cru 2020', 0.005520717004478237), ('Gadais Pere   Fils Muscadet Sevre et Maine Sur Lie 2021', 0.00552061664867006), ('Chateau Mouton Rothschild 2018', 0.005520500495322184)]
+2025-02-13 14:22:49,418 - INFO - Сохранение данных завершено

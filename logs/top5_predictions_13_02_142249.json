@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Chateau Haut Brion 1er Grand Cru Classe Rouge 2016",
+                "probability": 0.0055676020293470695
+            },
+            {
+                "class": "Dopff Pinot Noir Rouge des 2 Cerfs 2021",
+                "probability": 0.005532121215210508
+            },
+            {
+                "class": "Chateau Angelus Le Carillon de lAngelus Saint-Emilion Grand Cru 2020",
+                "probability": 0.005520717004478237
+            },
+            {
+                "class": "Gadais Pere   Fils Muscadet Sevre et Maine Sur Lie 2021",
+                "probability": 0.00552061664867006
+            },
+            {
+                "class": "Chateau Mouton Rothschild 2018",
+                "probability": 0.005520500495322184
+            }
+        ]
+    }
+]

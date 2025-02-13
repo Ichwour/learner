@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Reichsrat von Buhl Blanc de Blancs Prestige Brut",
+                "probability": 0.005192091802219192
+            },
+            {
+                "class": "Ca Vittoria Spumante Rose Brut",
+                "probability": 0.005192091802219192
+            },
+            {
+                "class": "Ca Vittoria Prosecco Treviso Soliz Extra Dry",
+                "probability": 0.005192091802219192
+            },
+            {
+                "class": "Ruggeri Prosecco Argeo Brut DOC 20cl",
+                "probability": 0.005192091802219192
+            },
+            {
+                "class": "Juve   Camps Millesime Rose 2012 Box",
+                "probability": 0.005192091802219192
+            }
+        ]
+    }
+]

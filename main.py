@@ -2,14 +2,15 @@ import pandas as pd
 import os
 import numpy as np
 from catboost import Pool, CatBoostClassifier
-from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.cluster import DBSCAN
+from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 import sys
 import json
 import io
 import logging
-import shutil
 from validators import e_path, e_read, e_write, e_convert, e_file, e_fill_values, e_fill, e_scale_price, \
     e_scale_format, e_scale, e_preprocess, e_train, e_learn, e_save, e_load
 
@@ -56,8 +57,9 @@ def read_file(num):
 
             type_to_keep = int(type_to_keep)
             df = df[df["type"] == type_to_keep]
+            remaining_count = len(df)
+            logging.info("После фильтрации осталось %d объектов.", remaining_count)
 
-        logging.info("Отфильтрованные данные: %s", df.head())
         return df
 
     except Exception as e:
@@ -82,17 +84,32 @@ def scale(df):
         logging.info("Функция scale начата")
         df['price'] = np.log1p(df['price'])
         e_scale_price(df, "price")
-        df = e_scale_format(df, "format")
         logging.debug("Масштабирование выполнено: %s", df.head())
         return df
     except Exception as e:
         e_scale(e)
+
+def cluster_varietals(df):
+    try:
+        logging.info("Функция cluster_varietals начата")
+        vectorizer = TfidfVectorizer()
+        varietals_tfidf = vectorizer.fit_transform(df['varietals'])
+        dbscan = DBSCAN(eps=0.5, min_samples=2, metric='cosine')
+        clusters = dbscan.fit_predict(varietals_tfidf)
+        df['varietal_cluster'] = clusters
+        logging.info("Кластеризация сортов завершена. Найдено %d кластеров", len(set(clusters)) - (1 if -1 in clusters else 0))
+
+        return df
+    except Exception as e:
+        logging.error("Ошибка в cluster_varietals: %s", e)
+        return df  # Возвращаем df без изменений при ошибке
 
 def preprocess(df, num):
     try:
         logging.info("Функция preprocess начата")
         df = fill(df, num)
         df = scale(df)
+        df = cluster_varietals(df)
         logging.debug("Preprocess завершён: %s", df.head())
         logging.debug(f"Данные после препроцессинга: {df.head()}")
         return df
@@ -102,7 +119,7 @@ def preprocess(df, num):
 def train(df):
     try:
         logging.info("Функция train начата")
-        x = df.drop('name', axis=1)
+        x = df.drop(['name', 'type'], axis=1)
         y = df['name']
         x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
         cat_features = ['producer', 'country', 'varietals', 'region', 'color', 'sugar']
@@ -111,23 +128,56 @@ def train(df):
         print("Порядок признаков в модели:", feature_order)
         test_pool = Pool(data=x_test, label=y_test, cat_features=cat_features)
         logging.info("Данные успешно разделены на обучающие и тестовые")
-        # sample_weight = calculate_weights(user_prefs, X_train)
         return train_pool, test_pool
     except Exception as e:
         e_train(e)
+
+def evaluate_model(model, test_pool):
+    try:
+        predictions = model.predict(test_pool)
+        labels = test_pool.get_label()
+        acc = accuracy_score(labels, predictions)
+        report = classification_report(labels, predictions)
+        logging.info(f"Test accuracy: {acc:.4f}")
+        logging.info(f"Classification report:\n{report}")
+    except Exception as e:
+        logging.error("Ошибка в evaluate_model: %s", e)
+
+def check_overfitting(model, train_pool, test_pool):
+    try:
+        train_preds = model.predict(train_pool)
+        test_preds = model.predict(test_pool)
+        train_acc = accuracy_score(train_pool.get_label(), train_preds)
+        test_acc = accuracy_score(test_pool.get_label(), test_preds)
+        logging.info(f"Train accuracy: {train_acc:.4f}")
+        logging.info(f"Test accuracy: {test_acc:.4f}")
+        gap = train_acc - test_acc
+        logging.info(f"Разница между Train и Test: {gap:.4f}")
+        if gap > 0.1:
+            logging.warning("Возможно, модель переобучается (разница > 0.1).")
+    except Exception as e:
+        logging.error("Ошибка в check_overfitting: %s", e)
+
+def check_random_baseline(test_pool):
+    try:
+        labels = test_pool.get_label()
+        unique_labels = list(set(labels))
+        random_preds = np.random.choice(unique_labels, size=len(labels))
+        random_acc = accuracy_score(labels, random_preds)
+        logging.info(f"Random baseline accuracy: {random_acc:.4f}")
+    except Exception as e:
+        logging.error("Ошибка в check_random_baseline: %s", e)
 
 def learn():
     try:
         logging.info("Программа запущена")
         train_pool, test_pool = train(preprocess(read_file(2), 2))
         logging.info("Функция learn начата")
-        model = CatBoostClassifier(iterations=1, learning_rate=0.03, depth=6, l2_leaf_reg=14, border_count=32)
-        # model = model.fit(train_pool, sample_weight=sample_weight)
+        model = CatBoostClassifier(iterations=51, learning_rate=0.03, depth=6, l2_leaf_reg=14, border_count=32, verbose=False)
         model = model.fit(train_pool)
-        print("Vesa: ", model.feature_importances_)
-        y_pred = model.predict(test_pool)
-        f1 = f1_score(test_pool.get_label(), y_pred, average='weighted')
-        logging.info("Обучение завершено с точностью: %.2f", f1)
+        evaluate_model(model, test_pool)
+        check_overfitting(model, train_pool, test_pool)
+        check_random_baseline(test_pool)
         return model
     except Exception as e:
         e_learn(e)

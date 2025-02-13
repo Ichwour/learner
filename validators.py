@@ -4,7 +4,6 @@ import pandas as pd
 import logging
 
 def e_path(num):
-    logging.info("e_path выполнено")
     path = ""
     if num == 2:
         path = "data/data.json"
@@ -15,7 +14,6 @@ def e_path(num):
 def e_read(path):
     try:
         with open(path, 'r', encoding='utf-8') as file:
-            logging.info("e_read выполнено")
             return json.load(file)
     except FileNotFoundError:
         logging.error("Файл не найден: %s", path)
@@ -31,7 +29,6 @@ def e_write(path, data):
     try:
         with open(path, 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
-            logging.info("e_write выполнено")
     except IOError:
         logging.error("Ошибка в e_write: %s", path)
         raise
@@ -40,7 +37,6 @@ def e_convert(data):
     try:
         if isinstance(data, dict):
             data = [data]
-        logging.info("e_convert выполнено")
         return pd.DataFrame(data)
     except Exception as e:
         logging.error("Ошибка в e_convert: %s", e)
@@ -55,7 +51,6 @@ def e_fill_values(df, columns):
         if df[column].isnull().any():
             logging.error("Не удалось заполнить пропуски в e_fill_values: %s", column)
             raise
-    logging.info("e_fill_values выполнено")
 
 def e_fill(e):
     logging.error("Ошибка в e_fill: %s", e)
@@ -72,7 +67,7 @@ def e_scale_price(df, column):
         if (df[column] < 0).any():
             logging.error("Столбец содержит отрицательные данные: %s", column)
             raise
-        logging.info("e_scale_price выполнено")
+
     except KeyError as e:
         logging.error("Ошибка KeyError при валидации объёма: %s", e)
         raise
@@ -96,7 +91,6 @@ def e_scale_format(df, column):
         if (df[column] < 0).any():
             logging.error("Столбец содержит отрицательные данные: %s", column)
             raise
-        logging.info("e_scale_format выполнено")
         return df
     except KeyError as e:
         logging.error("Ошибка KeyError при валидации объёма: %s", e)

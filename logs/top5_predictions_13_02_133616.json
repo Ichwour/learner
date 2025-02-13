@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Ruggeri Prosecco Argeo Brut DOC 20cl",
+                "probability": 0.005316277244304518
+            },
+            {
+                "class": "Ca Vittoria Spumante Rose Brut",
+                "probability": 0.005304694820809768
+            },
+            {
+                "class": "Duval Leroy Champagne Brut Rose Prestige Premier Cru Magnum",
+                "probability": 0.005291397851170489
+            },
+            {
+                "class": "Billecart-Salmon Brut Rose",
+                "probability": 0.005291350020653488
+            },
+            {
+                "class": "Billecart-Salmon Cuvee Louis Brut Blanc de Blanc Grand Cru 2009",
+                "probability": 0.005281495733160982
+            }
+        ]
+    }
+]

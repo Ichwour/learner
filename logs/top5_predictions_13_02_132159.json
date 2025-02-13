@@ -1,0 +1,26 @@
+[
+    {
+        "predictions": [
+            {
+                "class": "Ruggeri Giall'Oro Valdobbiadene Prosecco Superiore DOCG Extra Dry 37,5cl",
+                "probability": 0.005553408498077814
+            },
+            {
+                "class": "Billecart-Salmon Brut Rose",
+                "probability": 0.005353908571589065
+            },
+            {
+                "class": "Maurice Grumier Instant Nature Zero Dosage",
+                "probability": 0.005287286340369126
+            },
+            {
+                "class": "Dom Perignon Limited Edition Michael Riedel 2006",
+                "probability": 0.005287238492082919
+            },
+            {
+                "class": "Ruggeri Giall'Oro Valdobbiadene Prosecco Superiore DOCG Extra Dry",
+                "probability": 0.005287025205576302
+            }
+        ]
+    }
+]

@@ -7,7 +7,6 @@
         "varietals": null,
         "region": null,
         "color": "Gold",
-        "format": 0.33,
         "sugar": null,
         "type": 2
     },
@@ -19,7 +18,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -31,7 +29,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -43,7 +40,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -55,7 +51,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -67,7 +62,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -79,7 +73,6 @@
         "varietals": "Chardonnay",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -91,7 +84,6 @@
         "varietals": null,
         "region": null,
         "color": "Amber",
-        "format": 0.33,
         "sugar": null,
         "type": 2
     },
@@ -103,7 +95,6 @@
         "varietals": null,
         "region": null,
         "color": "Dark",
-        "format": 0.33,
         "sugar": null,
         "type": 2
     },
@@ -115,7 +106,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -127,7 +117,6 @@
         "varietals": "Glera",
         "region": "Veneto",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra Dry",
         "type": 1
     },
@@ -139,7 +128,6 @@
         "varietals": "Merlot,Cabernet Franc",
         "region": "Saint-Emilion",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -151,7 +139,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -163,7 +150,6 @@
         "varietals": "Cabernet Sauvignon,Merlot",
         "region": "Pessac-Leognan",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -175,7 +161,6 @@
         "varietals": "Gewurztraminer,Malagouzia",
         "region": "Florina",
         "color": null,
-        "format": 0.5,
         "sugar": "Sweet",
         "type": 1
     },
@@ -187,7 +172,6 @@
         "varietals": "Pinot Noir",
         "region": "Cava",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -199,7 +183,6 @@
         "varietals": "Pinot Noir",
         "region": "Cava",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -211,7 +194,6 @@
         "varietals": "Chardonnay",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -223,7 +205,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -235,7 +216,6 @@
         "varietals": "Cabernet Sauvignon,Merlot",
         "region": "Margaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -247,7 +227,6 @@
         "varietals": "Merlot,Carmenere",
         "region": "Trentino",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -259,7 +238,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -271,7 +249,6 @@
         "varietals": "Cabernet Franc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -283,7 +260,6 @@
         "varietals": "Merlot",
         "region": "Saint-Emilion",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -295,7 +271,6 @@
         "varietals": "Semillon,Sauvignon Blanc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -307,7 +282,6 @@
         "varietals": "Merlot,Cabernet Franc",
         "region": "Pomerol",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -319,7 +293,6 @@
         "varietals": "Cabernet Sauvignon,Merlot",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -331,7 +304,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -343,7 +315,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -355,7 +326,6 @@
         "varietals": "Semillon,Sauvignon Blanc,Sauvignon gris,Muscadelle",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -367,7 +337,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -379,7 +348,6 @@
         "varietals": "Cabernet Sauvignon,Cabernet Franc",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -391,7 +359,6 @@
         "varietals": "Semillon,Sauvignon Blanc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -403,7 +370,6 @@
         "varietals": "Syrah",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -415,7 +381,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -427,7 +392,6 @@
         "varietals": "Saperavi",
         "region": "Kakheti",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -439,7 +403,6 @@
         "varietals": "Saperavi",
         "region": "Kakheti",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -451,7 +414,6 @@
         "varietals": "Kakheti Mtsvane,Rkatsiteli",
         "region": "Kakheti",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -463,7 +425,6 @@
         "varietals": "Tsolikouri",
         "region": "Kakheti",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-sweet",
         "type": 1
     },
@@ -475,7 +436,6 @@
         "varietals": "Saperavi",
         "region": "Kakheti",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -487,7 +447,6 @@
         "varietals": "Neuburger,Riesling,Gruner Veltliner,Weisburgunder",
         "region": "Wachau",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -499,7 +458,6 @@
         "varietals": "Neuburger,Chardonnay,Riesling,Gruner Veltliner",
         "region": "Wachau",
         "color": null,
-        "format": 0.375,
         "sugar": "Sweet",
         "type": 1
     },
@@ -511,7 +469,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -523,7 +480,6 @@
         "varietals": "Pinot Noir",
         "region": "Veneto",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -535,7 +491,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -547,7 +502,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -559,7 +513,6 @@
         "varietals": "Glera",
         "region": "Veneto",
         "color": null,
-        "format": 1.5,
         "sugar": "Extra Dry",
         "type": 1
     },
@@ -571,7 +524,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -583,7 +535,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -595,7 +546,6 @@
         "varietals": null,
         "region": "Armagnac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -607,7 +557,6 @@
         "varietals": null,
         "region": null,
         "color": "Gold",
-        "format": 0.33,
         "sugar": null,
         "type": 2
     },
@@ -619,7 +568,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": "Gold",
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -631,7 +579,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -643,7 +590,6 @@
         "varietals": null,
         "region": "Armagnac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -655,7 +601,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -667,7 +612,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -679,7 +623,6 @@
         "varietals": "Glera",
         "region": "Veneto",
         "color": null,
-        "format": 0.375,
         "sugar": "Extra Dry",
         "type": 1
     },
@@ -691,7 +634,6 @@
         "varietals": "Glera",
         "region": "Veneto",
         "color": null,
-        "format": 0.2,
         "sugar": "Brut",
         "type": 1
     },
@@ -703,7 +645,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -715,7 +656,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.375,
         "sugar": "Brut",
         "type": 1
     },
@@ -727,7 +667,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -739,7 +678,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -751,7 +689,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -763,7 +700,6 @@
         "varietals": "Glera",
         "region": "Veneto",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra Dry",
         "type": 1
     },
@@ -775,7 +711,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -787,7 +722,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.31,
         "sugar": null,
         "type": 2
     },
@@ -799,7 +733,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.37,
         "sugar": null,
         "type": 2
     },
@@ -811,7 +744,6 @@
         "varietals": "Chardonnay",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -823,7 +755,6 @@
         "varietals": null,
         "region": "Armagnac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -835,7 +766,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -847,7 +777,6 @@
         "varietals": null,
         "region": null,
         "color": "Dark",
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -859,7 +788,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.64,
         "sugar": null,
         "type": 2
     },
@@ -871,7 +799,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.24,
         "sugar": null,
         "type": 2
     },
@@ -883,7 +810,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.64,
         "sugar": null,
         "type": 2
     },
@@ -895,7 +821,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.64,
         "sugar": null,
         "type": 2
     },
@@ -907,7 +832,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -919,7 +843,6 @@
         "varietals": null,
         "region": "Ailey",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -931,7 +854,6 @@
         "varietals": null,
         "region": null,
         "color": "Gold",
-        "format": 0.33,
         "sugar": null,
         "type": 2
     },
@@ -943,7 +865,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -955,7 +876,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -967,7 +887,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -979,7 +898,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -991,7 +909,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1003,7 +920,6 @@
         "varietals": "Chardonnay",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1015,7 +931,6 @@
         "varietals": null,
         "region": null,
         "color": "Amber",
-        "format": 0.33,
         "sugar": null,
         "type": 2
     },
@@ -1027,7 +942,6 @@
         "varietals": null,
         "region": null,
         "color": "Dark",
-        "format": 0.33,
         "sugar": null,
         "type": 2
     },
@@ -1039,7 +953,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -1051,7 +964,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 6.0,
         "sugar": "Brut",
         "type": 1
     },
@@ -1063,7 +975,6 @@
         "varietals": "Pinot Noir",
         "region": "Bourgogne",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1075,7 +986,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Marlborough",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1087,7 +997,6 @@
         "varietals": "Pinot Noir",
         "region": "Cote de Nuits",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1099,7 +1008,6 @@
         "varietals": "Pinot Noir",
         "region": "Bourgogne",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1111,7 +1019,6 @@
         "varietals": "Pinot Noir",
         "region": "Bourgogne",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1123,7 +1030,6 @@
         "varietals": "Shiraz",
         "region": "Valley of Barossa",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1135,7 +1041,6 @@
         "varietals": null,
         "region": "Honshu",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1147,7 +1052,6 @@
         "varietals": "Xynisteri",
         "region": "Paphos",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1159,7 +1063,6 @@
         "varietals": "Viognier",
         "region": "Paphos",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1171,7 +1074,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1183,7 +1085,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.375,
         "sugar": "Brut",
         "type": 1
     },
@@ -1195,7 +1096,6 @@
         "varietals": null,
         "region": "Islay",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1207,7 +1107,6 @@
         "varietals": "Cabernet Sauvignon,Cabernet Franc,Sangiovese",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1219,7 +1118,6 @@
         "varietals": null,
         "region": "Hokkaido",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1231,7 +1129,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1243,7 +1140,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1255,7 +1151,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1267,7 +1162,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1279,7 +1173,6 @@
         "varietals": "Furmint",
         "region": "Tokaj",
         "color": null,
-        "format": 0.5,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1291,7 +1184,6 @@
         "varietals": "Furmint",
         "region": "Tokaj",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1303,7 +1195,6 @@
         "varietals": "Furmint,Harslevelu",
         "region": "Tokaj",
         "color": null,
-        "format": 0.25,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1315,7 +1206,6 @@
         "varietals": "Furmint",
         "region": "Tokaj",
         "color": null,
-        "format": 0.375,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1327,7 +1217,6 @@
         "varietals": "Furmint",
         "region": "Tokaj",
         "color": null,
-        "format": 0.25,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1339,7 +1228,6 @@
         "varietals": "Furmint",
         "region": "Tokaj",
         "color": null,
-        "format": 0.5,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1351,7 +1239,6 @@
         "varietals": "Negroamaro",
         "region": "Puglia",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1363,7 +1250,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1375,7 +1261,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -1387,7 +1272,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1399,7 +1283,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1411,7 +1294,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Montagne de Reims",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1423,7 +1305,6 @@
         "varietals": null,
         "region": null,
         "color": "Brown",
-        "format": 20.0,
         "sugar": null,
         "type": 2
     },
@@ -1435,7 +1316,6 @@
         "varietals": "Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -1447,7 +1327,6 @@
         "varietals": "Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.375,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -1459,7 +1338,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1471,7 +1349,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -1483,7 +1360,6 @@
         "varietals": null,
         "region": "Pfalz",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1495,7 +1371,6 @@
         "varietals": "Chardonnay,Pinot Blanc",
         "region": "Pfalz",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1507,7 +1382,6 @@
         "varietals": "Chardonnay,Pinot Blanc",
         "region": "Pfalz",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1519,7 +1393,6 @@
         "varietals": "Riesling",
         "region": "Pfalz",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1531,7 +1404,6 @@
         "varietals": "Muscadet",
         "region": "Loire",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1543,7 +1415,6 @@
         "varietals": "Pinot Blanc,Auxerrois Blanc",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1555,7 +1426,6 @@
         "varietals": "Chardonnay",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1567,7 +1437,6 @@
         "varietals": "Riesling",
         "region": "Alsace",
         "color": null,
-        "format": 0.375,
         "sugar": "Dry",
         "type": 1
     },
@@ -1579,7 +1448,6 @@
         "varietals": "Gewurztraminer",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -1591,7 +1459,6 @@
         "varietals": "Gewurztraminer",
         "region": "Alsace",
         "color": null,
-        "format": 0.375,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -1603,7 +1470,6 @@
         "varietals": "Pinot Noir",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1615,7 +1481,6 @@
         "varietals": "Muscat Blanc",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1627,7 +1492,6 @@
         "varietals": "Gewurztraminer",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -1639,7 +1503,6 @@
         "varietals": "Pinot Grigio",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1651,7 +1514,6 @@
         "varietals": "Riesling",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1663,7 +1525,6 @@
         "varietals": "Riesling",
         "region": "Alsace",
         "color": null,
-        "format": 0.375,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -1675,7 +1536,6 @@
         "varietals": "Riesling",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1687,7 +1547,6 @@
         "varietals": "Riesling",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -1699,7 +1558,6 @@
         "varietals": "Riesling",
         "region": "Alsace",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1711,7 +1569,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -1723,7 +1580,6 @@
         "varietals": "Torrontes",
         "region": "Uco Valley",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1735,7 +1591,6 @@
         "varietals": "Cabernet Sauvignon",
         "region": "La Consulta",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1747,7 +1602,6 @@
         "varietals": "Chardonnay",
         "region": "San Pablo",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1759,7 +1613,6 @@
         "varietals": "Malbec",
         "region": "Uco Valley",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1771,7 +1624,6 @@
         "varietals": "Welschriesling",
         "region": "Burgenland",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1783,7 +1635,6 @@
         "varietals": "Zweigelt",
         "region": "Burgenland",
         "color": null,
-        "format": 0.375,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1795,7 +1646,6 @@
         "varietals": "Welschriesling",
         "region": "Burgenland",
         "color": null,
-        "format": 0.375,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1807,7 +1657,6 @@
         "varietals": "Chardonnay,Traminer,Welschriesling",
         "region": "Burgenland",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1819,7 +1668,6 @@
         "varietals": "Muscatel",
         "region": "Burgenland",
         "color": null,
-        "format": 0.375,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1831,7 +1679,6 @@
         "varietals": "Welschriesling",
         "region": "Burgenland",
         "color": null,
-        "format": 0.375,
         "sugar": "Sweet",
         "type": 1
     },
@@ -1843,7 +1690,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -1855,7 +1701,6 @@
         "varietals": "Pinot Noir",
         "region": "Bourgogne",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1867,7 +1712,6 @@
         "varietals": "Chardonnay",
         "region": "Cava",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1879,7 +1723,6 @@
         "varietals": "Chardonnay",
         "region": "Navarra",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1891,7 +1734,6 @@
         "varietals": "Tempranillo",
         "region": "Navarra",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1903,7 +1745,6 @@
         "varietals": "Muscat",
         "region": "Navarra",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1915,7 +1756,6 @@
         "varietals": "Grenache Blanc,Grenache Noir",
         "region": "Navarra",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1927,7 +1767,6 @@
         "varietals": "Tempranillo,Garnacha",
         "region": "Navarra",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -1939,7 +1778,6 @@
         "varietals": "Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -1951,7 +1789,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1963,7 +1800,6 @@
         "varietals": "Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -1975,7 +1811,6 @@
         "varietals": "Chardonnay",
         "region": "Loire",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1987,7 +1822,6 @@
         "varietals": "Cabernet Franc",
         "region": "Loire",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -1999,7 +1833,6 @@
         "varietals": "Chardonnay,Chenin Blanc",
         "region": "Loire",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -2011,7 +1844,6 @@
         "varietals": "Chardonnay,Chenin Blanc",
         "region": "Loire",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -2023,7 +1855,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -2035,7 +1866,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Blanc",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -2047,7 +1877,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -2059,7 +1888,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc",
         "region": "California",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2071,7 +1899,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -2083,7 +1910,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -2095,7 +1921,6 @@
         "varietals": null,
         "region": null,
         "color": "Amber",
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -2107,7 +1932,6 @@
         "varietals": "Moscato Bianco",
         "region": "Stellenbosch",
         "color": null,
-        "format": 0.5,
         "sugar": "Sweet",
         "type": 1
     },
@@ -2119,7 +1943,6 @@
         "varietals": "Chardonnay",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -2131,7 +1954,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2143,7 +1965,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Bordeaux",
         "color": null,
-        "format": 1.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -2155,7 +1976,6 @@
         "varietals": null,
         "region": "Texas",
         "color": null,
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -2167,7 +1987,6 @@
         "varietals": "Cabernet Sauvignon,Cabernet Franc,Carmenere,Petit Verdot",
         "region": "Puente Alto",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2179,7 +1998,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc",
         "region": "Puente Alto",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2191,7 +2009,6 @@
         "varietals": "Semillon,Sauvignon Blanc",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2203,7 +2020,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Petit Verdot",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2215,7 +2031,6 @@
         "varietals": "Chardonnay",
         "region": "Penedes",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2227,7 +2042,6 @@
         "varietals": "Cabernet Sauvignon,Cabernet Franc",
         "region": "Penedes",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2239,7 +2053,6 @@
         "varietals": "Moschofilero",
         "region": "Peloponnese",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2251,7 +2064,6 @@
         "varietals": "Moschofilero",
         "region": "Peloponnese",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2263,7 +2075,6 @@
         "varietals": "Tempranillo,Graciano,Mazuelo",
         "region": "Rioja",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2275,7 +2086,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 1.5,
         "sugar": null,
         "type": 2
     },
@@ -2287,7 +2097,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -2299,7 +2108,6 @@
         "varietals": "Chardonnay",
         "region": "Puglia",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2311,7 +2119,6 @@
         "varietals": "Zinfandel,Petite Sirah",
         "region": "California",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2323,7 +2130,6 @@
         "varietals": "Chardonnay",
         "region": "California",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2335,7 +2141,6 @@
         "varietals": "Chardonnay",
         "region": "California",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -2347,7 +2152,6 @@
         "varietals": "Shiraz",
         "region": "Barossa",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2359,7 +2163,6 @@
         "varietals": "Cabernet Sauvignon",
         "region": "Barossa",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2371,7 +2174,6 @@
         "varietals": "Cabernet Sauvignon",
         "region": "Barossa",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2383,7 +2185,6 @@
         "varietals": "Chardonnay",
         "region": "Barossa",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2395,7 +2196,6 @@
         "varietals": "Shiraz,Cabernet",
         "region": "Barossa",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2407,7 +2207,6 @@
         "varietals": "Sauvignon Blanc",
         "region": "Paso Robles",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2419,7 +2218,6 @@
         "varietals": "Pinot Noir",
         "region": "Paso Robles",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2431,7 +2229,6 @@
         "varietals": "Chardonnay",
         "region": "Paso Robles",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2443,7 +2240,6 @@
         "varietals": "Cabernet Sauvignon,Cabernet Franc,Petit Verdot",
         "region": "Paso Robles",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2455,7 +2251,6 @@
         "varietals": "Petit Verdot,Petite Sirah",
         "region": "Paso Robles",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2467,7 +2262,6 @@
         "varietals": "Sauvignon Blanc",
         "region": "Curico Valley",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2479,7 +2273,6 @@
         "varietals": "Chardonnay",
         "region": "Curico Valley",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2491,7 +2284,6 @@
         "varietals": "Sauvignon Blanc",
         "region": "Colchagua Valley",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2503,7 +2295,6 @@
         "varietals": "Cabernet Sauvignon",
         "region": "Central Valley",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2515,7 +2306,6 @@
         "varietals": "Cabernet Sauvignon",
         "region": "Central Valley",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2527,7 +2317,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -2539,7 +2328,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2551,7 +2339,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Margaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2563,7 +2350,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2575,7 +2361,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot",
         "region": "Saint-Estephe",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2587,7 +2372,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -2599,7 +2383,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -2611,7 +2394,6 @@
         "varietals": "Sauvignon Blanc",
         "region": "Loire",
         "color": null,
-        "format": 0.375,
         "sugar": "Dry",
         "type": 1
     },
@@ -2623,7 +2405,6 @@
         "varietals": "Sauvignon Blanc",
         "region": "Loire",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2635,7 +2416,6 @@
         "varietals": "Shiraz,Malbec",
         "region": "Larnaca",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2647,7 +2427,6 @@
         "varietals": "Cabernet Sauvignon,Cabernet Franc",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2659,7 +2438,6 @@
         "varietals": "Palomino",
         "region": "Andalucia",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2671,7 +2449,6 @@
         "varietals": "Palomino",
         "region": "Sherry",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2683,7 +2460,6 @@
         "varietals": "Palomino",
         "region": "Sherry",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2695,7 +2471,6 @@
         "varietals": "Pedro Ximenez",
         "region": "Andalucia",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -2707,7 +2482,6 @@
         "varietals": "Palomino",
         "region": "Andalucia",
         "color": null,
-        "format": 0.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -2719,7 +2493,6 @@
         "varietals": "Palomino,Pedro Ximenez",
         "region": "Andalucia",
         "color": null,
-        "format": 0.5,
         "sugar": "Sweet",
         "type": 1
     },
@@ -2731,7 +2504,6 @@
         "varietals": "Palomino and Pedro XimÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©nez",
         "region": "Sherry",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -2743,7 +2515,6 @@
         "varietals": "Moscatel,Palomino",
         "region": "Andalucia",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -2755,7 +2526,6 @@
         "varietals": "Moscatel,Palomino,Tintilla de Rota",
         "region": "Andalucia",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -2767,7 +2537,6 @@
         "varietals": null,
         "region": "Sherry",
         "color": null,
-        "format": 0.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -2779,7 +2548,6 @@
         "varietals": "Merlot,Cabernet,Sangiovese",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2791,7 +2559,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Malbec",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -2803,7 +2570,6 @@
         "varietals": "Merlot",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -2815,7 +2581,6 @@
         "varietals": "Rondinella,Corvinone,Corvina Veronese",
         "region": "Veneto",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2827,7 +2592,6 @@
         "varietals": "Rondinella,Corvina,Corvinone,Rossignola",
         "region": "Veneto",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2839,7 +2603,6 @@
         "varietals": "Rondinella,Corvina,Corvinone,Rossignola",
         "region": "Veneto",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2851,7 +2614,6 @@
         "varietals": "Rondinella,Corvina,Corvinone,Rossignola",
         "region": "Veneto",
         "color": null,
-        "format": 1.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -2863,7 +2625,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Petit Verdot",
         "region": "Margaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2875,7 +2636,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Petit Verdot",
         "region": "Margaux",
         "color": null,
-        "format": 1.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -2887,7 +2647,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -2899,7 +2658,6 @@
         "varietals": "Maratheftiko",
         "region": "Paphos",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2911,7 +2669,6 @@
         "varietals": "Xynisteri",
         "region": "Laona -Akamas",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2923,7 +2680,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -2935,7 +2691,6 @@
         "varietals": "Sauvignon Blanc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2947,7 +2702,6 @@
         "varietals": "Sauvignon Blanc",
         "region": "Friuli Venezia Giulia",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -2959,7 +2713,6 @@
         "varietals": "Chardonnay",
         "region": "Friuli Venezia Giulia",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2971,7 +2724,6 @@
         "varietals": "Riesling,Pinot Grigio,Gewurztraminer",
         "region": "Friuli Venezia Giulia",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -2983,7 +2735,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Petit Verdot,Malbec",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -2995,7 +2746,6 @@
         "varietals": "Chardonnay",
         "region": "Franciacorta",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3007,7 +2757,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Cabernet Franc,Malbec",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3019,7 +2768,6 @@
         "varietals": "Chardonnay,Pinot Blanc",
         "region": "Lombardy",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3031,7 +2779,6 @@
         "varietals": null,
         "region": "Lowland",
         "color": null,
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -3043,7 +2790,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3055,7 +2801,6 @@
         "varietals": "Merlot,Cabernet Franc,Agiorgitiko",
         "region": "Fthiotida",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3067,7 +2812,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 1.0,
         "sugar": null,
         "type": 2
     },
@@ -3079,7 +2823,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3091,7 +2834,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 1.5,
         "sugar": "Brut",
         "type": 1
     },
@@ -3103,7 +2845,6 @@
         "varietals": null,
         "region": "Kentucky",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3115,7 +2856,6 @@
         "varietals": "Tempranillo",
         "region": "Rioja",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3127,7 +2867,6 @@
         "varietals": "Sercial",
         "region": "Madeira",
         "color": null,
-        "format": 0.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -3139,7 +2878,6 @@
         "varietals": "Verdelho",
         "region": "Madeira",
         "color": null,
-        "format": 0.5,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -3151,7 +2889,6 @@
         "varietals": "Malvasia",
         "region": "Madeira",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -3163,7 +2900,6 @@
         "varietals": "Terrantez",
         "region": "Madeira",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -3175,7 +2911,6 @@
         "varietals": "Malvasia",
         "region": "Madeira",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -3187,7 +2922,6 @@
         "varietals": "Boal",
         "region": "Madeira",
         "color": null,
-        "format": 0.75,
         "sugar": "Sweet",
         "type": 1
     },
@@ -3199,7 +2933,6 @@
         "varietals": null,
         "region": "Kentucky",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3211,7 +2944,6 @@
         "varietals": null,
         "region": "Jalisco",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3223,7 +2955,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3235,7 +2966,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 1.5,
         "sugar": null,
         "type": 2
     },
@@ -3247,7 +2977,6 @@
         "varietals": "Tempranillo,Albillo",
         "region": "Ribera del Duero",
         "color": null,
-        "format": 1.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -3259,7 +2988,6 @@
         "varietals": "Petit Verdot",
         "region": "Medoc",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3271,7 +2999,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3283,7 +3010,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3295,7 +3021,6 @@
         "varietals": "Chardonnay",
         "region": "Castile and Leon",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3307,7 +3032,6 @@
         "varietals": "Chardonnay,Sauvignon Blanc,Viognier,Gros Manseng",
         "region": "VDP",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3319,7 +3043,6 @@
         "varietals": "Syrah",
         "region": "Rona",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3331,7 +3054,6 @@
         "varietals": null,
         "region": "Cognac",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3343,7 +3065,6 @@
         "varietals": "Sangiovese,Colorino",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3355,7 +3076,6 @@
         "varietals": null,
         "region": "Speyside",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3367,7 +3087,6 @@
         "varietals": "Primitivo",
         "region": "Puglia",
         "color": null,
-        "format": 1.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -3379,7 +3098,6 @@
         "varietals": "Chardonnay",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3391,7 +3109,6 @@
         "varietals": "Merlot",
         "region": "Saint-Emilion",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3403,7 +3120,6 @@
         "varietals": "Cabernet Sauvignon",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3415,7 +3131,6 @@
         "varietals": "Cabernet Sauvignon",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3427,7 +3142,6 @@
         "varietals": "Cabernet Sauvignon,Merlot",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3439,7 +3153,6 @@
         "varietals": "Semillon,Sauvignon Blanc",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3451,7 +3164,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3463,7 +3175,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3475,7 +3186,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3487,7 +3197,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -3499,7 +3208,6 @@
         "varietals": "Chardonnay",
         "region": "Bourgogne",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3511,7 +3219,6 @@
         "varietals": "Chardonnay",
         "region": "Bourgogne",
         "color": null,
-        "format": 0.375,
         "sugar": "Dry",
         "type": 1
     },
@@ -3523,7 +3230,6 @@
         "varietals": "Pinot Noir",
         "region": "Cote de Nuits",
         "color": null,
-        "format": 0.375,
         "sugar": "Dry",
         "type": 1
     },
@@ -3535,7 +3241,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3547,7 +3252,6 @@
         "varietals": null,
         "region": "Jalisco",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3559,7 +3263,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Petit Verdot",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3571,7 +3274,6 @@
         "varietals": "Cabernet Sauvignon,Merlot,Petit Verdot",
         "region": "Pauillac",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3583,7 +3285,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Franciacorta",
         "color": null,
-        "format": 0.75,
         "sugar": "Extra brut",
         "type": 1
     },
@@ -3595,7 +3296,6 @@
         "varietals": "Gewurztraminer",
         "region": "Trentino",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3607,7 +3307,6 @@
         "varietals": "Sangiovese Grosso Brunello",
         "region": "Toscana",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3619,7 +3318,6 @@
         "varietals": "Sangiovese",
         "region": "Toscana",
         "color": null,
-        "format": 1.5,
         "sugar": "Dry",
         "type": 1
     },
@@ -3631,7 +3329,6 @@
         "varietals": "Trebbiano",
         "region": "Lombardy",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3643,7 +3340,6 @@
         "varietals": "Montepulciano d'Abruzzo",
         "region": "Abruzzo",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3655,7 +3351,6 @@
         "varietals": null,
         "region": null,
         "color": "Transparent",
-        "format": 0.22,
         "sugar": null,
         "type": 2
     },
@@ -3667,7 +3362,6 @@
         "varietals": "Montepulciano",
         "region": "Abruzzo",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3679,7 +3373,6 @@
         "varietals": "Cabernet Sauvignon,Merlot",
         "region": "Bordeaux",
         "color": null,
-        "format": 0.75,
         "sugar": "Dry",
         "type": 1
     },
@@ -3691,7 +3384,6 @@
         "varietals": "Chardonnay",
         "region": "Cava",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3703,7 +3395,6 @@
         "varietals": "Parellada,Macabeo,XarelÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·lo",
         "region": "Cava",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     },
@@ -3715,7 +3406,6 @@
         "varietals": "Chardonnay,Pinot Noir",
         "region": "Franciacorta",
         "color": null,
-        "format": 0.75,
         "sugar": "Semi-dry",
         "type": 1
     },
@@ -3727,7 +3417,6 @@
         "varietals": null,
         "region": "Louisiana",
         "color": null,
-        "format": 0.7,
         "sugar": null,
         "type": 2
     },
@@ -3739,7 +3428,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.05,
         "sugar": null,
         "type": 2
     },
@@ -3751,7 +3439,6 @@
         "varietals": null,
         "region": "Highland",
         "color": null,
-        "format": 0.05,
         "sugar": null,
         "type": 2
     },
@@ -3763,7 +3450,6 @@
         "varietals": "Chardonnay,Pinot Noir,Pinot Meunier",
         "region": "Champagne",
         "color": null,
-        "format": 0.75,
         "sugar": "Brut",
         "type": 1
     }

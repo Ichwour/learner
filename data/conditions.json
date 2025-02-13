@@ -1,10 +1,9 @@
 {
-  "price": 14.0,
-  "country": "IT",
-  "varietals": "Glera",
-  "region": "Veneto",
+  "price": 560.0,
+  "country": "FR",
+  "varietals": "Merlot,Cabernet Franc",
+  "region": "Saint-Emilion",
   "color": null,
-  "format": 0.75,
-  "sugar": "Extra Dry",
+  "sugar": "Dry",
   "type": 1
 }
